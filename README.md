@@ -1,142 +1,119 @@
-# Kano Montessori Portal
+# Kano Montessori School Portal
 
-A web-based school management portal for **Kano Montessori**, built to simplify communication and record-keeping between the school, teachers, parents and students.
+A responsive school website project designed to provide students, parents, teachers, and visitors with easy access to important school information.
 
-## Table of Contents
+## 📌 Project Overview
 
-- [Overview](#overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Environment Variables](#environment-variables)
-- [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+The Kano Montessori School Portal is a web development project being built as part of a 60-day programming journey. The goal is to develop a professional, user-friendly school web application while learning frontend and backend development.
 
-## Overview
+## 🎯 Project Objectives
 
-Kano Montessori Portal centralizes day-to-day school operations in one place. Administrators can manage pupils and staff, teachers can record attendance and results, and parents can follow their child's progress online.
+- Create a professional school homepage.
+- Provide information about the school, its activities, and announcements.
+- Make school information accessible on computers, tablets, and mobile phones.
+- Develop interactive features for students, parents, teachers, and administrators.
+- Learn and apply software development practices using Git and GitHub.
+- Progressively develop a functional school management web application.
 
-## Features
+## 👥 Target Users
 
-- **User authentication** with role-based access (Admin, Teacher, Parent)
-- **Pupil management**: registration, profiles and class assignment
-- **Attendance tracking**: daily attendance records per class
-- **Results and report cards**: enter scores and generate termly reports
-- **Fees management**: track payments and outstanding balances
-- **Announcements**: school notices and event updates
-- **Parent dashboard**: view a child's attendance, results and fee status
-- **Responsive design** that works on mobile, tablet and desktop
+- School visitors
+- Parents and guardians
+- Students
+- Teachers
+- School administrators
 
-## Tech Stack
+## ✨ Planned Features
 
-| Layer      | Technology                      |
-| ---------- | ------------------------------- |
-| Frontend   | [HTML, CSS, JavaScript / React] |
-| Backend    | [Node.js, Express / PHP / Django] |
-| Database   | [MySQL / MongoDB / PostgreSQL]  |
-| Hosting    | [Vercel / Render / cPanel]      |
+- [ ] Responsive homepage
+- [ ] School information and history
+- [ ] News and announcements
+- [ ] Student and parent information links
+- [ ] Contact information
+- [ ] Interactive navigation
+- [ ] Student registration and records
+- [ ] Secure user authentication
+- [ ] Teacher and administrator dashboards
+- [ ] Attendance management
+- [ ] Examination results management
 
-## Getting Started
+*Features will be implemented gradually throughout the project.*
 
-### Prerequisites
+## 🛠️ Technologies
 
-- [Node.js](https://nodejs.org/) v18 or higher
-- npm or yarn
-- A running [database] instance
-- Git
+The project is planned to use the following technologies:
 
-### Installation
+- **HTML5** — webpage structure
+- **CSS3** — styling and responsive layouts
+- **JavaScript** — interactive features
+- **Python** — backend programming
+- **Flask** — Python web framework
+- **Database** — storage and management of school records
+- **Git** — version control
+- **GitHub** — source code hosting
 
-1. **Clone the repository**
-```bash
-   git clone https://github.com/[your-username]/kano-montessori-portal.git
-   cd kano-montessori-portal
-```
+## 📅 Development Roadmap
 
-2. **Install dependencies**
-```bash
-   npm install
-```
+This project follows a 60-day learning and development plan.
 
-3. **Set up environment variables**
-```bash
-   cp .env.example .env
-```
-   Then fill in the values (see below).
+| Days | Focus |
+|---|---|
+| 1–10 | Planning, HTML, CSS, Git and responsive design |
+| 11–20 | JavaScript and interactive features |
+| 21–30 | Python, Flask and backend fundamentals |
+| 31–40 | Database design and student records |
+| 41–50 | Authentication and school management features |
+| 51–60 | Testing, security improvements and deployment |
 
-4. **Run the app**
-```bash
-   npm run dev
-```
+## 📂 Project Structure
 
-5. Open your browser at `http://localhost:3000`
+The project will gradually develop into the following structure:
 
-## Environment Variables
-
-Create a `.env` file in the root directory:
-
-```env
-PORT=3000
-DATABASE_URL=your_database_connection_string
-JWT_SECRET=your_secret_key
-```
-
-## Project Structure
-
-```
+```text
 kano-montessori-portal/
-├── public/          # Static files
-├── src/
-│   ├── components/  # UI components
-│   ├── pages/       # Portal pages
-│   ├── routes/      # API routes
-│   ├── models/      # Database models
-│   └── utils/       # Helper functions
-├── .env.example
-├── package.json
-└── README.md
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── README.md
+└── project-plan.md
 ```
 
-## Usage
+Additional folders and backend files will be added as development progresses.
 
-| Role    | What they can do                                              |
-| ------- | ------------------------------------------------------------- |
-| Admin   | Manage pupils, staff, classes, fees and announcements         |
-| Teacher | Take attendance, enter scores, view class lists               |
-| Parent  | View child's profile, results, attendance and fee status      |
+## 🚀 Getting Started
 
-## Roadmap
+Once the initial files have been created:
 
-- [ ] Online fee payment integration
-- [ ] SMS/email notifications to parents
-- [ ] Downloadable PDF report cards
-- [ ] Parent-teacher messaging
-- [ ] Offline support for low-connectivity areas
+1. Clone or download this repository.
+2. Open the project folder in Visual Studio Code.
+3. Open `index.html` in a web browser to view the homepage.
+4. Edit the HTML and CSS files to make changes.
+5. Use Git to track your progress and GitHub to maintain your repository.
 
-## Contributing
+## 📚 Learning Goals
 
-Contributions are welcome!
+Through this project, I aim to improve my skills in:
 
-1. Fork the project
-2. Create a feature branch (`git checkout -b feature/new-feature`)
-3. Commit your changes (`git commit -m "Add new feature"`)
-4. Push to the branch (`git push origin feature/new-feature`)
-5. Open a Pull Request
+- Web development fundamentals
+- Responsive website design
+- Programming and problem-solving
+- Backend development
+- Database management
+- Version control and collaboration
+- Software testing and deployment
 
-## License
+## 📈 Project Status
 
-This project is licensed under the [MIT License](LICENSE).
+**Current stage:** Day 1 — Planning and environment setup.
 
-## Contact
+The project is under active development. Features will be added and documented as the 60-day journey progresses.
 
-**[Your Name]**
-Email: [your-email@example.com]
-GitHub: [@your-username](https://github.com/your-username)
+## 👨‍💻 Developer
 
----
+Developed as a personal learning project during a 60-day web development journey.
 
-*Built for Kano Montessori School.*
+## 📄 License
+
+The project's licensing terms have not yet been defined.
